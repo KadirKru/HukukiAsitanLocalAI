@@ -1,0 +1,40 @@
+{
+  "baslangic": "2026-04-16T16:50:51.359941",
+  "adimlar": {
+    "kanunlar": {
+      "basarili": [
+        "anayasa",
+        "turk_ceza_kanunu",
+        "ceza_muhakemesi_kanunu",
+        "infaz_kanunu",
+        "turk_medeni_kanunu",
+        "turk_borclar_kanunu",
+        "hukuk_muhakemeleri_kanunu",
+        "icra_iflas_kanunu",
+        "is_kanunu",
+        "isci_sagligi_kanunu",
+        "sosyal_sigortalar_kanunu",
+        "turk_ticaret_kanunu",
+        "vergi_usul_kanunu",
+        "gelir_vergisi_kanunu",
+        "kurumlar_vergisi_kanunu",
+        "tuketici_koruma_kanunu",
+        "kvkk",
+        "nufus_hizmetleri_kanunu"
+      ],
+      "basarisiz": [
+        "idari_yargilama_kanunu",
+        "kamulatirma_kanunu",
+        "kdv_kanunu"
+      ]
+    },
+    "aym": {},
+    "yargitay": {},
+    "chunking": {
+      "toplam_chunk": 10178,
+      "dosya": "c:\\Users\\kuru2\\OneDrive\\Masaüstü\\prjdnme\\legal_data\\chunks\\tam_veri_seti.json"
+    }
+  },
+  "bitis": "2026-04-16T16:56:17.945742",
+  "sure_dakika": 5.4
+}

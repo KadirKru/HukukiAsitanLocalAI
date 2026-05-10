@@ -1,0 +1,22 @@
+# Python / Backend
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+chroma_db/
+.pytest_cache/
+*.log
+
+# C# / WPF / Frontend
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS Files
+.DS_Store
+Thumbs.db

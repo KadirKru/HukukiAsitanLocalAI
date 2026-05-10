@@ -1,0 +1,98 @@
+[
+  {
+    "kanun_adi": "Türk Ceza Kanunu",
+    "kanun_no": "5237",
+    "yil": 2004,
+    "maddeler": [
+      {"madde_no": "21", "baslik": "Kast", "icerik": "Suçun oluşması kastın varlığına bağlıdır. Kast, suçun kanuni tanımındaki unsurların bilerek ve istenerek gerçekleştirilmesidir. Olası kast halinde fail suçun gerçekleşebileceğini öngörmesine rağmen fiili işler; ceza dörtte birden dörtte üçe kadar indirilir."},
+      {"madde_no": "22", "baslik": "Taksir", "icerik": "Taksirle işlenen fiiller kanunun açıkça belirttiği hallerde cezalandırılır. Taksir; dikkat ve özen yükümlülüğüne aykırılık dolayısıyla neticenin öngörülmeyerek gerçekleştirilmesidir. Bilinçli taksirde (netice öngörülür ama istenmez) ceza üçte birden yarısına kadar artırılır."},
+      {"madde_no": "25", "baslik": "Meşru Savunma", "icerik": "Kendisine veya başkasına ait bir hakka yönelmiş, gerçekleşen veya tekrarı kesin olan haksız bir saldırıyı saldırıyla orantılı biçimde def etmek zorunluluğuyla işlenen fiillerden dolayı faile ceza verilmez."},
+      {"madde_no": "29", "baslik": "Haksız Tahrik", "icerik": "Haksız bir fiilin meydana getirdiği hiddet veya şiddetli elemin etkisiyle suç işleyen kimseye ağırlaştırılmış müebbet yerine 18-24 yıl, müebbet yerine 12-18 yıl hapis verilir. Diğer hallerde verilecek cezanın dörtte birinden dörtte üçüne kadarı indirilir."},
+      {"madde_no": "35", "baslik": "Teşebbüs", "icerik": "İşlemeyi kastettiği suçu elverişli hareketlerle doğrudan icraya başlayıp elinde olmayan nedenlerle tamamlayamayan kişi teşebbüsten sorumludur. Ceza: ağırlaştırılmış müebbet için 13-20 yıl, müebbet için 9-15 yıl; diğerlerinde dörtte birden dörtte üçe kadar indirim."},
+      {"madde_no": "81", "baslik": "Kasten Öldürme", "icerik": "Bir insanı kasten öldüren kişi müebbet hapis cezası ile cezalandırılır."},
+      {"madde_no": "82", "baslik": "Nitelikli Öldürme", "icerik": "Tasarlayarak, canavarca hisle veya eziyet çektirerek, yangın/bombalama gibi yöntemlerle, üstsoy/altsoy/eşe/kardeşe karşı, gebe kadına karşı, kamu görevi nedeniyle, çocuğa karşı işlenen kasten öldürme halinde ağırlaştırılmış müebbet hapis cezasına hükmolunur."},
+      {"madde_no": "83", "baslik": "İhmali Davranışla Öldürme", "icerik": "Yükümlü olduğu belli icraî davranışı gerçekleştirmeyen kişi, bu ihmalin icraî davranışa eşdeğer olması koşuluyla ölüm neticesinden sorumlu tutulabilir."},
+      {"madde_no": "84", "baslik": "İntihara Yönlendirme", "icerik": "Başkasını intihara azmettiren, teşvik eden, intihar kararını kuvvetlendiren ya da intiharına yardım eden kişi 2-5 yıl hapis cezasıyla cezalandırılır."},
+      {"madde_no": "85", "baslik": "Taksirle Öldürme", "icerik": "Taksirle bir insanın ölümüne neden olan kişi 2-6 yıl hapis cezasıyla cezalandırılır. Birden fazla kişinin ölümüne ya da ölüm ve yaralanmanın birlikte gerçekleşmesi halinde 2-15 yıl hapis cezasına hükmolunur."},
+      {"madde_no": "86", "baslik": "Kasten Yaralama", "icerik": "Başkasının vücuduna acı veren veya sağlığının ya da algılama yeteneğinin bozulmasına neden olan kişi 1-3 yıl hapis cezasıyla cezalandırılır. Basit tıbbi müdahaleyle giderilebilecek ölçüde hafif yaralamada şikayet üzerine 4 ay-1 yıl hapis veya adli para cezasına hükmolunur."},
+      {"madde_no": "87", "baslik": "Neticesi Sebebiyle Ağırlaşmış Yaralama", "icerik": "Kasten yaralama; duyulardan birinin sürekli zayıflamasına, yüzde sabit ize, hayati tehlikeye neden olmuşsa 2-5 yıl hapis. Bir organın işlevini yitirmesine, bitkisel hayata girmesine, gebe kadında çocuğun düşmesine neden olmuşsa 2-8 yıl hapis cezasına hükmolunur."},
+      {"madde_no": "88", "baslik": "Birlikte Yaralama", "icerik": "Kasten yaralama suçunun birden fazla kişi tarafından birlikte işlenmesi halinde, şikayete bağlı olanlar hariç, belirlenen ceza yarısı oranında artırılır."},
+      {"madde_no": "94", "baslik": "İşkence", "icerik": "Kişiye insan onuruyla bağdaşmayan, bedensel veya ruhsal acı çekmesine ya da aşağılanmasına yol açacak davranışları gerçekleştiren kamu görevlisi 3-12 yıl hapis cezasıyla cezalandırılır."},
+      {"madde_no": "96", "baslik": "Eziyet", "icerik": "Bir kimsenin eziyet çekmesine yol açacak davranışları gerçekleştiren kişiye 2-5 yıl hapis cezası verilir. Çocuğa, savunmasız kişiye veya aile bireylerine karşı işlenmesi halinde 8 yıla kadar hapis verilir."},
+      {"madde_no": "102", "baslik": "Cinsel Saldırı", "icerik": "Cinsel davranışlarla vücut dokunulmazlığını ihlal eden kişi şikayet üzerine 4-8 yıl hapis cezasıyla cezalandırılır. Vücuda organ veya cisim sokulması suretiyle işlenmesi halinde 7-12 yıl hapis cezasına hükmolunur."},
+      {"madde_no": "103", "baslik": "Çocukların Cinsel İstismarı", "icerik": "Onbeş yaşını tamamlamamış veya tamamlamış olmakla birlikte fiilin hukuki anlam ve sonuçlarını algılama yeteneği gelişmemiş olan çocuğa karşı gerçekleştirilen her türlü cinsel davranış 3-8 yıl, vücuda organ veya cisim sokulması suretiyle 8-15 yıl hapis cezasına neden olur."},
+      {"madde_no": "105", "baslik": "Cinsel Taciz", "icerik": "Cinsel amaçlı taciz eden kişiye 3 ay-2 yıl hapis veya adli para cezası verilir; çocuğa karşı 6 ay-3 yıl hapis cezasına hükmolunur."},
+      {"madde_no": "109", "baslik": "Kişiyi Hürriyetinden Yoksun Kılma", "icerik": "Hukuka aykırı olarak bir yere gitme veya bir yerde kalma özgürlüğünden yoksun bırakan kişiye 2-5 yıl hapis cezası verilir. Silah kullanılarak veya birden fazla kişi tarafından işlenmesi gibi nitelikli hallerde ceza artırılır."},
+      {"madde_no": "116", "baslik": "Konut Dokunulmazlığının İhlali", "icerik": "Konutuna rızası olmaksızın giren veya rızayla girdikten sonra çıkmayan kişiye şikayet üzerine 6 ay-2 yıl hapis cezası verilir."},
+      {"madde_no": "125", "baslik": "Hakaret", "icerik": "Onur, şeref ve saygınlığı rencide edecek nitelikte somut fiil veya olgu isnat eden ya da sövmek suretiyle kişinin onuruna saldıran kişiye 3 ay-2 yıl hapis veya adli para cezası verilir."},
+      {"madde_no": "132", "baslik": "Haberleşmenin Gizliliğini İhlal", "icerik": "Kişiler arasındaki haberleşmenin gizliliğini ihlal eden kimse 1-3 yıl hapis cezasıyla cezalandırılır. Haberleşme içeriklerinin kaydedilmesi suretiyle ihlalde 2-5 yıl hapsine hükmolunur."},
+      {"madde_no": "141", "baslik": "Hırsızlık", "icerik": "Rızası olmadan başkasına ait taşınır bir malı yarar sağlamak maksadıyla yerinden alan kişiye 1-3 yıl hapis cezası verilir."},
+      {"madde_no": "142", "baslik": "Nitelikli Hırsızlık", "icerik": "Hırsızlık suçunun; kamu kurumunda, ibadete ayrılmış yerde, ulaşım aracında, banka sistemlerinde veya gece failin birden fazla kişiyle işlemesi gibi nitelikli hallerde 3-7 yıl hapis cezasına hükmolunur."},
+      {"madde_no": "155", "baslik": "Güveni Kötüye Kullanma", "icerik": "Muhafaza veya belirli kullanım amacıyla zilyetliği devredilen mal üzerinde devir amacı dışında tasarrufta bulunan kişi şikayet üzerine 2-5 yıl hapis ve adli para cezasıyla cezalandırılır."},
+      {"madde_no": "157", "baslik": "Dolandırıcılık", "icerik": "Hileli davranışlarla bir kimseyi aldatıp, onun veya başkasının zararına yarar sağlayan kişiye 1-5 yıl hapis ve beş bin güne kadar adli para cezası verilir."},
+      {"madde_no": "158", "baslik": "Nitelikli Dolandırıcılık", "icerik": "Dolandırıcılık; dini inanç ve duyguların istismarıyla, kamu kurum veya kuruluşlarının zararına, banka veya kredi kurumlarınca verilen kredi aracıyla, basın ve yayın araçlarıyla işlenmesi halinde 3-10 yıl hapis ve beş bin güne kadar adli para cezasıyla cezalandırılır."},
+      {"madde_no": "188", "baslik": "Uyuşturucu İmal ve Ticareti", "icerik": "Uyuşturucu veya uyarıcı maddeleri ruhsatsız imal, ithal veya ihraç eden kişi 20-30 yıl hapis ve iki bin-yirmi bin gün adli para cezasıyla cezalandırılır."},
+      {"madde_no": "191", "baslik": "Kişisel Kullanım İçin Uyuşturucu Bulundurma", "icerik": "Kullanmak için uyuşturucu satın alan, kabul eden veya bulunduran ya da kullanan kişi 2-5 yıl hapis cezasıyla cezalandırılır. Soruşturmada erteleme kararıyla denetimli serbestlik tedbiri altında tedaviye tabi tutulabilir."},
+      {"madde_no": "220", "baslik": "Suç Örgütü Kurma", "icerik": "Suç işlemek amacıyla örgüt kuranlar veya yönetenler 2-6 yıl; örgüte üye olanlar 1-3 yıl hapis cezasıyla cezalandırılır."},
+      {"madde_no": "244", "baslik": "Bilişim Sistemine Girme", "icerik": "Bilişim sistemine hukuka aykırı olarak giren veya kalmaya devam eden kimseye 1 yıla kadar hapis veya adli para cezası verilir."},
+      {"madde_no": "267", "baslik": "İftira", "icerik": "Yetkili makamlara ihbar veya şikayet yoluyla işlemediğini bildiği bir fiili başkasına isnat eden kişi 1-4 yıl hapis cezasıyla cezalandırılır."},
+      {"madde_no": "282", "baslik": "Kara Para Aklama", "icerik": "Suçtan kaynaklanan malvarlığı değerlerini yurt dışına çıkaran veya gayrimeşru kaynağını gizlemek amacıyla işlemlere tabi tutan kişi 3-7 yıl hapis ve yirmi bin güne kadar adli para cezasıyla cezalandırılır."},
+      {"madde_no": "314", "baslik": "Silahlı Örgüt", "icerik": "Silahlı örgüt kuran veya yöneten kişi 10-15 yıl, örgüte üye olan 5-10 yıl hapis cezasıyla cezalandırılır."}
+    ]
+  },
+  {
+    "kanun_adi": "Türk Medeni Kanunu",
+    "kanun_no": "4721",
+    "yil": 2001,
+    "maddeler": [
+      {"madde_no": "2", "baslik": "Dürüstlük Kuralı", "icerik": "Herkes haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır. Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz."},
+      {"madde_no": "161", "baslik": "Zina", "icerik": "Eşlerden biri zina ederse, diğer eş boşanma davası açabilir. Davaya hakkı olan eşin sebebi öğrenmesinden itibaren 6 ay ve her halde 5 yıl içinde dava açılmalıdır. Affeden tarafın dava hakkı yoktur."},
+      {"madde_no": "163", "baslik": "Hayata Kast", "icerik": "Eşlerden birinin diğerinin veya altsoyunun canına kast etmesi ya da hayati tehlikeye sokan davranışta bulunması halinde mağdur eş her zaman boşanma davası açabilir."},
+      {"madde_no": "166", "baslik": "Evlilik Birliğinin Sarsılması", "icerik": "Evlilik birliği, ortak hayatı sürdürmeleri beklenemeyecek derecede temelinden sarsılmışsa eşlerden her biri boşanma davası açabilir. Davacının kusuru daha ağırsa davalı itiraz hakkına sahiptir."},
+      {"madde_no": "174", "baslik": "Boşanmada Tazminat", "icerik": "Mevcut veya beklenen menfaatleri boşanma yüzünden zedelenen kusursuz ya da daha az kusurlu taraf, kusurlu taraftan uygun maddi tazminat isteyebilir. Kişilik hakkı saldırıya uğrayan taraf manevi tazminat isteyebilir."},
+      {"madde_no": "175", "baslik": "Yoksulluk Nafakası", "icerik": "Boşanma yüzünden yoksulluğa düşecek taraf, kusuru daha ağır olmamak koşuluyla geçimi için diğer taraftan mali gücü oranında süresiz nafaka isteyebilir. Nafaka yükümlüsünün kusuru aranmaz."},
+      {"madde_no": "182", "baslik": "Velayet", "icerik": "Mahkeme boşanmaya hükmederken olanak buldukça tarafları dinleyerek ve gerekirse uzman görüşü alarak hangi tarafın velayeti kullanacağına karar verir. Çocuğun menfaati belirleyici unsurdur."},
+      {"madde_no": "499", "baslik": "Miras Hakkı", "icerik": "Miras, mirasbırakanın ölümüyle açılır. Yasal mirasçılar mirasbırakanın kan hısımları, eşi ve devlettir."},
+      {"madde_no": "506", "baslik": "Saklı Pay", "icerik": "Altsoy için yasal miras payının yarısı, ana-baba her biri için dörtte biri, sağ kalan eş için altsoy veya ana-babayla birlikte mirasçıysa dörtte biri; tek başına mirasçıysa payının tamamı saklı paydır."}
+    ]
+  },
+  {
+    "kanun_adi": "İş Kanunu",
+    "kanun_no": "4857",
+    "yil": 2003,
+    "maddeler": [
+      {"madde_no": "17", "baslik": "Süreli Fesih Bildirimi", "icerik": "Belirsiz süreli iş sözleşmelerinin feshinden önce karşı tarafa bildirim yapılması zorunludur. Kıdeme göre bildirim süreleri: 6 aydan az çalışma için 2 hafta; 6 ay-1,5 yıl arası 4 hafta; 1,5-3 yıl arası 6 hafta; 3 yıldan fazla için 8 haftadır."},
+      {"madde_no": "18", "baslik": "Geçerli Sebep Zorunluluğu", "icerik": "30 veya daha fazla işçi çalıştıran işyerlerinde en az 6 aylık kıdemi olan işçinin sözleşmesini fesheden işveren; işçinin yeterliliğinden, davranışlarından ya da işletmenin gereklerinden kaynaklanan geçerli bir sebebe dayanmak zorundadır."},
+      {"madde_no": "20", "baslik": "Feshe İtiraz ve İşe İade", "icerik": "Fesih bildiriminden itibaren 1 ay içinde iş mahkemesinde dava açılabilir. Geçersiz sebeple fesih tespit edilirse işveren 1 ay içinde işçiyi işe başlatmak zorundadır; başlatmazsa 4-8 aylık ücret tutarında tazminat ödenir."},
+      {"madde_no": "25", "baslik": "İşverenin Haklı Nedenle Feshi", "icerik": "İşveren; işçinin sağlık, ahlak ve iyi niyet ile zorlayıcı sebepler kapsamındaki davranışları nedeniyle iş sözleşmesini bildirim süresini beklemeksizin feshedebilir."},
+      {"madde_no": "32", "baslik": "Ücret", "icerik": "Ücret Türk parası ile ödenir; en geç ayda bir olmak üzere iş sözleşmesiyle bir haftaya kadar indirilebilir. Ücretin yirmide birini aşan miktarda kesinti yapılamaz."},
+      {"madde_no": "41", "baslik": "Fazla Çalışma", "icerik": "Haftalık 45 saati aşan çalışmalar fazla çalışmadır. Her saat fazla çalışma için normal ücretin %50 fazlası ödenir. Fazla çalışma yılda 270 saati aşamaz."},
+      {"madde_no": "53", "baslik": "Yıllık İzin", "icerik": "En az 1 yıl çalışmış işçilere yıllık ücretli izin verilir. Süre: 1-5 yıl için en az 14 gün; 5-15 yıl için en az 20 gün; 15 yıl ve üzeri için en az 26 gün."},
+      {"madde_no": "118", "baslik": "Kıdem Tazminatı", "icerik": "Her geçen tam yıl için işçiye 30 günlük ücreti tutarında kıdem tazminatı ödenir. Kıdem tazminatı tavanı her yıl ilan edilmektedir."}
+    ]
+  },
+  {
+    "kanun_adi": "Türk Borçlar Kanunu",
+    "kanun_no": "6098",
+    "yil": 2011,
+    "maddeler": [
+      {"madde_no": "49", "baslik": "Haksız Fiil Sorumluluğu", "icerik": "Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren bu zararı gidermekle yükümlüdür. Ahlaka aykırı bir fiille başkasına kasten zarar veren de zararı gidermekle yükümlüdür."},
+      {"madde_no": "55", "baslik": "Destekten Yoksun Kalma Tazminatı", "icerik": "Destekten yoksun kalma zararları ile bedensel zararlar sorumluluk hukukunun genel ilkelerine göre hesaplanır. Sosyal güvenlik ödemeleri tazminattan indirilemez."},
+      {"madde_no": "299", "baslik": "Kira Sözleşmesi", "icerik": "Kira sözleşmesi; kiraya verenin kullanımı kiracıya bırakmayı, kiracının da kira bedeli ödemeyi üstlendiği sözleşmedir."},
+      {"madde_no": "315", "baslik": "Kira Bedelinin Ödenmemesi", "icerik": "Kira bedelini ödemeyen kiracıya kiraya veren yazılı ihtarla süre tanıyabilir. Bu süre konut kiralarında en az 30 gündür. Sürede ödeme yapılmazsa sözleşme feshedilebilir."},
+      {"madde_no": "339", "baslik": "Alt Kira", "icerik": "Kiracı, kiraya verenin yazılı rızası olmaksızın kira hakkını başkasına devredemez. Kiraya veren işyeri kiralarında haklı sebep olmaksızın rızayı vermekten kaçınamaz."}
+    ]
+  },
+  {
+    "kanun_adi": "Hukuk Muhakemeleri Kanunu",
+    "kanun_no": "6100",
+    "yil": 2011,
+    "maddeler": [
+      {"madde_no": "2", "baslik": "Asliye Hukuk Mahkemesinin Görevi", "icerik": "Dava konusunun değer veya miktarına bakılmaksızın malvarlığı haklarına ilişkin davalarla şahıs varlığına ilişkin davalarda görevli mahkeme, Kanunda aksine bir düzenleme bulunmadıkça asliye hukuk mahkemesidir."},
+      {"madde_no": "3", "baslik": "Sulh Hukuk Mahkemesinin Görevi", "icerik": "Sulh hukuk mahkemeleri; dava konusunun değer veya miktarına bakılmaksızın kiralanan taşınmazların ilamsız icra yoluyla tahliyesine ilişkin hükümlerin uygulanmasını talep etme dahil olmak üzere, kira ilişkisinden doğan davaları görür."},
+      {"madde_no": "107", "baslik": "Belirsiz Alacak Davası", "icerik": "Davanın açıldığı tarihte alacağın miktarını yahut değerini tam ve kesin olarak belirleyebilmesi kendisinden beklenemeyen davacı, hukuki ilişkiyi ve asgari bir miktar ya da değeri belirterek belirsiz alacak davası açabilir."},
+      {"madde_no": "114", "baslik": "Dava Şartları", "icerik": "Dava şartları şunlardır: Türk mahkemelerinin yargı yetkisinin bulunması, yargı yetkisinin bulunduğu konularda görevli mahkemede dava açılmış olması, tarafların taraf ve dava ehliyetine sahip olması, dava açma hakkının bulunması."},
+      {"madde_no": "266", "baslik": "Bilirkişiye Başvurma", "icerik": "Mahkeme, çözümü hâkimlik mesleğinin gerektirdiği hukuki bilginin dışında, özel veya teknik bilgiyi gerektiren hallerde bilirkişinin görüşüne başvurur."}
+    ]
+  }
+]

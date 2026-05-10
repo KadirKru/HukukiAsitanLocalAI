@@ -1,0 +1,18 @@
+  Geri yüklenecek projeler belirleniyor...
+  Geri yükleme için tüm projeler güncel.
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(105,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF_uvqxtsat_wpftmp.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(106,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF_uvqxtsat_wpftmp.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(105,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(106,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF.csproj]
+  LegalAdvisorWPF -> C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\bin\tmp_check\LegalAdvisorWPF.dll
+
+Oluşturma başarılı oldu.
+
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(105,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF_uvqxtsat_wpftmp.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(106,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF_uvqxtsat_wpftmp.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(105,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF.csproj]
+C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\Views\ColorPickerWindow.cs(106,17): warning CS8602: Olası bir null başvurunun başvurma işlemi. [C:\Users\kuru2\OneDrive\Masaüstü\prjdnme\frontend\LegalAdvisorWPF\LegalAdvisorWPF\LegalAdvisorWPF.csproj]
+    4 Uyarı
+    0 Hata
+
+Geçen Süre 00:00:03.13

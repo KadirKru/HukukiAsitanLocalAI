@@ -1,0 +1,110 @@
+[
+  {
+    "daire": "Yargıtay 1. Ceza Dairesi",
+    "esas_no": "2023/1234",
+    "karar_no": "2023/5678",
+    "tarih": "2023-03-15",
+    "konu": "Kasten Öldürme - Meşru Savunma",
+    "ozet": "Sanığın kendisine yönelik haksız saldırıyı defetmek amacıyla gerçekleştirdiği eylemde meşru savunma koşullarının oluştuğu ve saldırı ile savunma arasında orantı bulunduğu anlaşılmakla beraat kararı verilmiştir.",
+    "karar_metni": "Sanık, şikayetçi tarafından önce sözlü hakarete uğramış, ardından şikayetçinin sanığa bıçakla saldırdığı ve sanığın bu saldırıyı defetmek amacıyla eylemde bulunduğu anlaşılmıştır. TCK'nın 25. maddesi uyarınca, gerçekleşen veya gerçekleşmesi kesin olan haksız saldırıyı saldırı ile orantılı biçimde defetmek zorunluluğuyla işlenen fiillerden dolayı ceza verilmez. Mahkeme; sanığın eyleminde meşru savunma koşullarının oluştuğunu, saldırı ile savunma arasındaki orantının bozulmadığını kabul ederek sanık hakkında beraat kararı vermiştir. Yargıtay bu kararı onamıştır."
+  },
+  {
+    "daire": "Yargıtay 4. Ceza Dairesi",
+    "esas_no": "2023/2345",
+    "karar_no": "2023/6789",
+    "tarih": "2023-05-20",
+    "konu": "Kasten Yaralama - Haksız Tahrik",
+    "ozet": "Haksız tahrik altında gerçekleştirilen kasten yaralama eyleminde TCK m.29 gereğince indirilen ceza uygulanmış, sanığın kademeli indirimden yararlanmasına karar verilmiştir.",
+    "karar_metni": "Sanık, mağdurun kendisine ağır hakaret ve tehdit içeren sözler sarf etmesinin hemen ardından mağduru yaralamıştır. Olay anındaki tahrik durumu değerlendirildiğinde, TCK'nın 29. maddesi kapsamında haksız tahrikin varlığı kabul edilmiştir. Haksız tahrikin ağırlığı dikkate alınarak verilecek cezanın dörtte birinden dörtte üçüne kadar indirim uygulanmıştır. Sanığın duygusal durumu, olayın ani gelişimi ve tahrikin yoğunluğu gözetilerek yarı oranında indirim yapılması uygun bulunmuştur."
+  },
+  {
+    "daire": "Yargıtay 2. Hukuk Dairesi",
+    "esas_no": "2023/3456",
+    "karar_no": "2023/7890",
+    "tarih": "2023-07-10",
+    "konu": "Boşanma - Evlilik Birliğinin Sarsılması - Nafaka",
+    "ozet": "Eşlerin uzun süreli ayrı yaşaması ve şiddetli geçimsizlik nedeniyle evlilik birliğinin temelinden sarsıldığı kabul edilerek boşanmaya hükmedilmiş, kusurlu eş aleyhine yoksulluk nafakasına karar verilmiştir.",
+    "karar_metni": "Tarafların 3 yıldır ayrı yaşadığı, bu süreçte ortak hayatı sürdürmeleri için gereken güven ortamının tamamen ortadan kalktığı anlaşılmıştır. TMK m.166 gereğince evlilik birliğinin temelden sarsıldığı kabul edilmiştir. Davalı eşin daha ağır kusurlu olduğu belirlenerek davacı lehine makul miktarda yoksulluk nafakasına hükmedilmiştir. Nafaka miktarı tarafların ekonomik ve sosyal durumları, davalının geliri gözetilerek belirlenmiştir. Boşanmada maddi tazminat talebi de değerlendirilerek, kusurun ağırlığı oranında tazminata hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 9. Hukuk Dairesi",
+    "esas_no": "2023/4567",
+    "karar_no": "2023/8901",
+    "tarih": "2023-09-22",
+    "konu": "İş Sözleşmesinin Haksız Feshi - İşe İade - Kıdem Tazminatı",
+    "ozet": "Geçerli sebep gösterilmeksizin feshedilen iş sözleşmesi nedeniyle işçinin işe iadesine, işe başlatılmaması halinde 4 aylık tazminata ve boşta geçen süre ücretine karar verilmiştir.",
+    "karar_metni": "İş Kanunu'nun 18. maddesi uyarınca, 30 ve üzeri işçi çalıştıran işyerlerinde 6 aylık kıdemi olan işçinin sözleşmesi geçerli bir sebebe dayandırılmak zorundadır. Davacı işçinin sicilinin temiz olduğu, işyerinde herhangi bir disiplin sorununa yol açmadığı ve işletmenin yeniden yapılanma sürecinde seçim yapılırken nesnel ölçütlerin kullanılmadığı anlaşılmıştır. Mahkeme, feshin geçersizliğine hükmetmiş, davalı işverenin davacıyı 1 ay içinde işe başlatmaması halinde 4 aylık ücret tutarında tazminat ödemeye, boşta geçen 4 aya kadar ücret ve diğer haklarını ödemeye mahkum edilmiştir."
+  },
+  {
+    "daire": "Yargıtay 11. Hukuk Dairesi",
+    "esas_no": "2023/5678",
+    "karar_no": "2023/9012",
+    "tarih": "2023-11-05",
+    "konu": "Dolandırıcılık - Hileli Davranış - Mağdur Zararı",
+    "ozet": "Sahte evrak düzenleyerek mağduru yanıltma ve maddi çıkar sağlama eyleminin dolandırıcılık suçunu oluşturduğu, nitelikli hal olarak değerlendirilmesi gerektiğine hükmedilmiştir.",
+    "karar_metni": "Sanığın, gerçeği yansıtmayan belgeler düzenleyerek mağdura sunduğu ve mağdurun bu belgelere inanarak borç para verdiği tespit edilmiştir. TCK'nın 157. maddesi kapsamında hileli davranışlarla mağdurun aldatıldığı, mağdurun bu yanıltma sonucu zarara uğradığı anlaşılmıştır. Eylemin birden fazla kez ve planlı biçimde gerçekleştirildiği dikkate alınarak TCK m.158 kapsamında nitelikli dolandırıcılık hükümleri uygulanmıştır. Sanığa 3 yıl 6 ay hapis cezası verilmiş, bu ceza onanmıştır."
+  },
+  {
+    "daire": "Yargıtay 12. Hukuk Dairesi",
+    "esas_no": "2023/6789",
+    "karar_no": "2023/1023",
+    "tarih": "2023-12-15",
+    "konu": "Kira Uyuşmazlığı - Tahliye - Kira Bedeli",
+    "ozet": "Kira bedelini ödemeyen kiracıya TBK m.315 gereğince 30 günlük ödeme ihtarı gönderilmeden doğrudan tahliye davası açılamayacağı, usule aykırılık nedeniyle davanın reddine karar verilmiştir.",
+    "karar_metni": "Davacı kiraya veren, kiracının 2 aylık kira bedelini ödemediğini, tahliye kararı verilmesini istemiştir. Ancak TBK'nın 315. maddesi gereğince kira bedelini ödemeyen kiracıya yazılı ihtarla en az 30 günlük süre tanınması zorunludur. Kiraya verenin bu ihtar yükümlülüğünü yerine getirmeden doğrudan tahliye davası açtığı anlaşıldığından, dava hukuki dayanaktan yoksun kabul edilerek reddedilmiştir. Kiraya verenin öncelikle usule uygun 30 günlük ihtarı göndermesi gerektiğine hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 3. Hukuk Dairesi",
+    "esas_no": "2022/7890",
+    "karar_no": "2022/2034",
+    "tarih": "2022-08-20",
+    "konu": "Trafik Kazası - Haksız Fiil - Destekten Yoksun Kalma Tazminatı",
+    "ozet": "Trafik kazasında hayatını kaybeden kişinin yakınlarının destekten yoksun kalma tazminatı talep etme hakları mevcuttur. Tazminat hesabında aktüerya tabloları ve müteveffanın geliri esas alınır.",
+    "karar_metni": "Davacılar, trafik kazasında hayatını kaybeden desteklerinin yarattığı ekonomik yoksunluğun giderilmesi talebinde bulunmuştur. TBK m.53 gereğince destekten yoksun kalma tazminatının hesabında; müteveffanın hayatta olsaydı elde edeceği gelir, muhtemel yaşam süresi ve destekten yararlanma oranı dikkate alınmıştır. Müteveffanın gelirinin belgelenemeyen kısmı için asgari ücret esas alınmıştır. Kazaya karışan aracın zorunlu trafik sigortasının primli teminatı çerçevesinde sigortacının da sorumlu olduğuna hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 8. Ceza Dairesi",
+    "esas_no": "2023/8901",
+    "karar_no": "2023/3145",
+    "tarih": "2023-10-10",
+    "konu": "Uyuşturucu Madde Kullanma - Erteleme - Denetimli Serbestlik",
+    "ozet": "Kullanmak amacıyla uyuşturucu madde bulundurma suçunda ilk kez soruşturmaya muhatap olan sanık hakkında denetimli serbestlik tedbiri uygulanarak kovuşturmanın ertelenmesine karar verilmiştir.",
+    "karar_metni": "Sanık hakkında TCK 191 kapsamında kullanmak için uyuşturucu bulundurma suçu nedeniyle soruşturma başlatılmıştır. Bu suçun ilk defa işlendiğinin tespiti halinde kanun, soruşturmanın bir yıl süreyle ertelenmesine ve denetimli serbestlik tedbiri uygulanmasına imkân tanımaktadır. Sanığın bağımlılık düzeyi değerlendirilerek uzman hekim raporu alınmış, sanığın tedaviye tabi tutulmasına karar verilmiştir. Erteleme süresi içinde yükümlülüklere uyulması halinde kamu davası açılmayacağına hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 15. Hukuk Dairesi",
+    "esas_no": "2022/9012",
+    "karar_no": "2022/4256",
+    "tarih": "2022-06-30",
+    "konu": "Eser Sözleşmesi - Ayıplı İfa - Tazminat",
+    "ozet": "Müteahhidin teslim ettiği eserde sözleşmeye aykırı ayıplar tespit edilmiş, iş sahibi lehine onarım masrafları kadar tazminata hükmedilmiştir.",
+    "karar_metni": "Davacı iş sahibi, davalı müteahhidin teslim ettiği inşaatta sözleşmeye aykırı eksiklikler ve ayıplar bulunduğunu ileri sürerek tazminat talep etmiştir. Mahkemece yaptırılan bilirkişi incelemesinde yapı ustasının teknik şartnameye uymayan malzeme kullandığı ve bazı yapısal hataların mevcut olduğu tespit edilmiştir. TBK'nın eser sözleşmesine ilişkin hükümleri çerçevesinde, ayıpların giderilmesinin mümkün olması halinde iş sahibinin onarım talep etme hakkına sahip olduğu, onarım masraflarının müteahhide yükletileceğine hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 4. Hukuk Dairesi",
+    "esas_no": "2023/1357",
+    "karar_no": "2023/5246",
+    "tarih": "2023-04-18",
+    "konu": "Hakaret Suçu - İspat Hakkı - Sosyal Medya",
+    "ozet": "Sosyal medya paylaşımı yoluyla gerçekleştirilen hakaretin suç teşkil ettiği, ispat hakkı kapsamında değerlendirilemeyeceği ve TCK m.125 hükümlerinin uygulanması gerektiğine hükmedilmiştir.",
+    "karar_metni": "Sanığın sosyal medya hesabından davacı hakkında gerçeği yansıtmayan, onur ve saygınlığını zedeleyici paylaşımlar yaptığı tespit edilmiştir. TCK m.127 kapsamında varlığı ispat edilmiş bir fiilin bildirilmesinin suç oluşturmayacağı savunması değerlendirilmiştir. Ancak sanığın dile getirdiği iddiaların gerçeğe dayanmadığı, mağdura somut bir suç atfetmenin ötesinde sövme içerdiği anlaşıldığından ispat hakkı geçerli kabul edilmemiştir. Sosyal medyanın geniş kitlelere hitap ettiği de gözetilerek TCK m.125/3 kapsamında ceza artırımına hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 22. Hukuk Dairesi",
+    "esas_no": "2023/2468",
+    "karar_no": "2023/6357",
+    "tarih": "2023-08-25",
+    "konu": "Fazla Çalışma Ücreti - İspat - Tanık",
+    "ozet": "Fazla çalışma ücreti taleplerinde işçi aleyhine hakkaniyet indirimi uygulanması ve tanık beyanlarıyla desteklenmeyen dönemler için taleplerin reddedilmesi isabetli bulunmuştur.",
+    "karar_metni": "Davacı işçi, iş akdinin devamı süresince haftalık 55 saat çalıştığını öne sürerek fazla çalışma ücreti talep etmiştir. İşveren imzalı ücret bordrolarında fazla çalışma ücretinin ödendiğini savunmuş ancak bunun hangi dönemlere ilişkin olduğu açık değildir. Yargıtay yerleşik içtihadı gereğince, fazla çalışmanın yazılı belge yerine tanık beyanıyla ispatlanması halinde hesaplanan miktardan hakkaniyete uygun oranda indirim yapılması gerektiğine; indirim oranının mahkeme takdirine bırakıldığına hükmedilmiştir."
+  },
+  {
+    "daire": "Yargıtay 5. Ceza Dairesi",
+    "esas_no": "2023/3579",
+    "karar_no": "2023/7468",
+    "tarih": "2023-06-12",
+    "konu": "Cinsel Saldırı - Mağdurun Beyanı - Delil Değerlendirmesi",
+    "ozet": "Cinsel saldırı suçunda mağdurun tutarlı ve inandırıcı beyanının tek başına mahkumiyet için yeterli olduğuna; ancak beyanın iç tutarlılığının ve diğer delillerle uyumunun titizlikle değerlendirilmesi gerektiğine hükmedilmiştir.",
+    "karar_metni": "Mağdurun aşamalarda tutarlı biçimde verdiği beyanlar, olayın yaşandığı yer ve zamanla örtüşen tanık ifadeleri ve adli tıp bulgularıyla desteklenmiştir. Yargıtay'ın yerleşik içtihadına göre, cinsel saldırı suçunda mağdurun samimi, ayrıntılı ve tutarlı beyanı mahkumiyet için yeterli delil niteliği taşıyabilir. Sanığın aleyhindeki delilleri çürütmeye yönelik savunmaları dosya kapsamıyla bağdaşmadığından mahkumiyet kararı onanmıştır."
+  }
+]

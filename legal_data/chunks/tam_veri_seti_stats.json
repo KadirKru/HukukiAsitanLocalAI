@@ -1,0 +1,18 @@
+{
+  "toplam_chunk": 10853,
+  "olusturulma_tarihi": "2026-04-16T17:17:55.013345",
+  "ortalama_chunk_boyutu": 567,
+  "kategoriler": {
+    "temel_hukuk": 382,
+    "ceza_hukuku": 1645,
+    "vergi_hukuku": 835,
+    "usul_hukuku": 1469,
+    "idare_hukuku": 344,
+    "is_hukuku": 1808,
+    "veri_koruma": 92,
+    "aile_hukuku": 149,
+    "tuketici_hukuku": 262,
+    "medeni_hukuk": 1753,
+    "ticaret_hukuku": 2114
+  }
+}
