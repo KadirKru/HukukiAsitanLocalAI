@@ -2,11 +2,17 @@
 Embedding Servisi
 sentence-transformers ile Türkçe destekli çok dilli embedding üretir.
 """
+import os
 from sentence_transformers import SentenceTransformer
 from typing import List, Union
 from loguru import logger
 from app.config import settings
 import numpy as np
+
+# RAG Sisteminin tamamen OFFLINE (internetsiz) çalışabilmesi için
+# HuggingFace sunucularına bağlanma isteğini zorla kapatıyoruz.
+# Böylece sadece önbelleğe alınmış modeli kullanacak ve Timeout vermeyecek.
+os.environ["HF_HUB_OFFLINE"] = "1"
 
 
 class EmbeddingService:
