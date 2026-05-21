@@ -99,7 +99,7 @@ class LLMClient:
         
         if query_type == "drafting":
             temperature = 0.5  # Taslak üretimi için biraz daha yaratıcılık ve loop engelleme
-            user_message = f"""Aşağıdaki hukuki kaynakları kullanarak istenen hukuki metnin (dilekçe/sözleşme) taslağını oluştur:
+            user_message = f"""Aşağıdaki hukuki kaynakları kullanarak istenen hukuki metnin taslağını oluştur:
 
 === HUKUK KAYNAKLARI ===
 {context}
@@ -107,45 +107,66 @@ class LLMClient:
 
 İSTENEN TASLAK: {question}
 
-GÖREVİN:
-Aşağıdaki örnek şablonlardan (İhtarname, Dilekçe veya Sözleşme) uygun olanı seçerek, YALNIZCA profesyonel bir hukuki metin üretmek. Hukuki jargonu (Keşideci, Muhatap, Davacı, Davalı, Sayın Noter vb.) doğru kullan.
+GÖREVİN: İstenen taslağın türünü (Adli Dava, İdari Dava, Ceza Şikayeti veya İhtarname) otomatik analiz et ve aşağıdaki 4 yasal şablondan en uygun olanını KESİNLİKLE birebir kullanarak resmi bir hukuki metin üret.
 
-=== ÖRNEK İHTARNAME ŞABLONU ===
-[...] NOTERLİĞİ'NE
-İHTAR EDEN (KEŞİDECİ): [Ad Soyad/Unvan ve Adres]
-VEKİLİ: [Varsa Avukat Adı ve Adresi]
-MUHATAP: [Ad Soyad/Unvan ve Adres]
-KONU: [İhtarın kısa konusu]
-AÇIKLAMALAR:
-1- [Giriş ve olayın özeti]
-2- [Hukuki dayanaklar ve ihlaller]
-3- [İhtar ve talepler (Örn: 10 gün içinde ödenmesi, aksi halde...)]
-SONUÇ VE İSTEM: Fazlaya dair tüm talep, dava ve şikayet haklarımız saklı kalmak kaydıyla...
-[Tarih]
-İHTAR EDEN VEKİLİ
-[İsim ve İmza Alanı]
-(İhtarname ise Sayın Noter; işbu ihtarnamenin... kısmını da ekle)
-
-=== ÖRNEK DAVA DİLEKÇESİ ŞABLONU ===
-[...] NÖBETÇİ MAHKEMESİ HAKİMLİĞİ'NE
-DAVACI: [Ad Soyad ve Adres]
+1) ADLİ YARGI (HMK Madde 119) DAVA DİLEKÇESİ ŞABLONU:
+[...] MAHKEMESİ HAKİMLİĞİ'NE
+DAVACI: [Ad Soyad, T.C. Kimlik No, Adres]
 VEKİLİ: [Avukat Adı ve Adresi]
-DAVALI: [Ad Soyad ve Adres]
-KONU: [Dava konusu ve talep edilen miktar]
+DAVALI: [Ad Soyad, T.C. Kimlik No/Vergi No, Adres]
+KONU: [Dava konusu ve değeri]
 AÇIKLAMALAR:
-1- [Olayın özeti ve hukuki durum]
-HUKUKİ NEDENLER: [İlgili Kanunlar]
-HUKUKİ DELİLLER: [Sözleşme, İhtarname, Tanık vb.]
-SONUÇ VE İSTEM: [Talebin net özeti]
+1- [Vakıalar...]
+HUKUKİ NEDENLER: [Kanun maddeleri]
+HUKUKİ DELİLLER: [Deliller listesi]
+SONUÇ VE İSTEM: [Açık talep]
 [Tarih]
-DAVACI VEKİLİ
-[İsim ve İmza Alanı]
+DAVACI VEKİLİ [İmza Alanı]
+
+2) İDARİ YARGI (İYUK Madde 3) DAVA DİLEKÇESİ ŞABLONU:
+[...] İDARE/VERGİ MAHKEMESİ BAŞKANLIĞI'NA
+DAVACI: [Ad Soyad, T.C. Kimlik No, Adres]
+DAVALI: [İlgili Kamu Kurumu Adı, Adres]
+TEBLİĞ TARİHİ: [İdari işlemin tebliğ edildiği tarih]
+KONU: [İptali istenen idari işlemin tarih ve sayısı, davanın konusu]
+AÇIKLAMALAR:
+1- [Olay özeti ve hukuka aykırılık nedenleri]
+HUKUKİ NEDENLER: [Kanunlar]
+HUKUKİ DELİLLER: [İdari İşlem belgesi vb.]
+SONUÇ VE İSTEM: [İptal talebi]
+[Tarih]
+DAVACI [İmza Alanı]
+
+3) CEZA HUKUKU (CMK) SUÇ DUYURUSU ŞABLONU:
+[...] CUMHURİYET BAŞSAVCILIĞI'NA
+MÜŞTEKİ/ŞİKAYETÇİ: [Ad Soyad, T.C. Kimlik No, Adres]
+ŞÜPHELİ: [Biliniyorsa Ad Soyad, T.C. Kimlik No, Adres - Bilinmiyorsa 'Faili Meçhul']
+SUÇ: [İsnat edilen suç]
+SUÇ TARİHİ VE YERİ: [Tarih ve Yer]
+AÇIKLAMALAR:
+1- [Olayın detayı]
+HUKUKİ NEDENLER: TCK, CMK ve ilgili mevzuat.
+DELİLLER: [Tanık, Kamera, Belge vb.]
+SONUÇ VE İSTEM: Şüpheli hakkında soruşturma yürütülerek kamu davası açılması talebidir.
+[Tarih]
+MÜŞTEKİ [İmza Alanı]
+
+4) İHTARNAME ŞABLONU (Noter):
+[...] NOTERLİĞİ'NE
+İHTAR EDEN: [Ad Soyad, T.C. Kimlik No, Adres]
+MUHATAP: [Ad Soyad, T.C. Kimlik No/Unvan, Adres]
+KONU: [İhtarın özeti]
+AÇIKLAMALAR:
+1- [Olay]
+SONUÇ VE İSTEM: ...
+[Tarih]
+İHTAR EDEN [İmza Alanı]
 
 KURALLAR:
-1. Ürettiğin metin KESİNLİKLE yukarıdaki şablonlardan birinin yapısında olmalıdır.
-2. Çıktın DOĞRUDAN makam/noter/başlık ismi ile başlamalıdır. Hiçbir giriş veya selamlama ("Here is a draft...", "İşte dilekçe:") KULLANMA.
-3. Metnin sonuna "Please note...", "Bu bir taslaktır" gibi HİÇBİR kapanış cümlesi VEYA UYARI YAZMA. İmza alanından sonra metni BİTİR.
-4. SADECE TÜRKÇE kullan. İngilizce hiçbir kelime veya cümle yazma."""
+1. Ürettiğin metin KESİNLİKLE yukarıdaki 4 yasal şablondan birinin yapısında olmalıdır.
+2. Çıktın DOĞRUDAN makam/noter/başlık ismi ile başlamalıdır. Hiçbir giriş veya selamlama KULLANMA.
+3. Metnin sonuna HİÇBİR kapanış cümlesi VEYA UYARI YAZMA. İmza alanından sonra metni BİTİR.
+4. SADECE TÜRKÇE kullan."""
             system_prompt = "Sen uzman bir Türk avukatsın. Sadece doğrudan resmi dilekçe, ihtarname ve sözleşme metinleri yazarsın. Yazdığın metinler tam bir avukat elinden çıkmış gibi resmi, soğuk ve hukuki jargonla doludur. Asla bir yapay zeka asistanı gibi davranmaz, sohbet etmezsin."
         else:
             user_message = f"""Aşağıdaki hukuki kaynakları kullanarak soruyu yanıtla:
@@ -178,12 +199,12 @@ Lütfen kaynaklara dayanarak kapsamlı ve doğru bir yanıt ver."""
         cleaned = text.replace("**", "")
         
         # 1. Başlangıcı bul (Noter, İhtar Eden, Davacı vb. ilk nerede geçiyorsa oradan itibaren al)
-        match_start = re.search(r'(?i)(\[?\s*\.?\s*\.?\s*\.?\s*NOTERLİĞİ\'NE|İHTAR EDEN|DAVACI|TARAFLAR|HİZMET SÖZLEŞMESİ|MAHKEMESİ)', cleaned)
+        match_start = re.search(r'(?i)(\[?\s*\.?\s*\.?\s*\.?\s*(NOTERLİĞİ\'NE|İHTAR EDEN|DAVACI|TARAFLAR|MÜŞTEKİ|ŞİKAYETÇİ|HİZMET SÖZLEŞMESİ|MAHKEMESİ|BAŞSAVCILIĞI\'NA|BAŞKANLIĞI\'NA))', cleaned)
         if match_start:
             cleaned = cleaned[match_start.start():]
             
         # 2. Bitişi bul (İmza alanından sonrasını at)
-        match_end = re.search(r'(?i)(\[İsim ve İmza Alanı\]|\[İmza\]|İmza:|İHTAR EDEN VEKİLİ)', cleaned)
+        match_end = re.search(r'(?i)(\[İsim ve İmza Alanı\]|\[İmza Alanı\]|\[İmza\]|İmza:|İHTAR EDEN VEKİLİ|DAVACI VEKİLİ|MÜŞTEKİ)', cleaned)
         if match_end:
             # Eşleşen kelimenin sonuna kadar al
             end_idx = match_end.end()
