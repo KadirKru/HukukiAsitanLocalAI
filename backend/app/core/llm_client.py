@@ -238,7 +238,13 @@ Lütfen kaynaklara dayanarak kapsamlı ve doğru bir yanıt ver."""
 
     def reformulate_query(self, user_query: str) -> str:
         # kullanicinin normal dilini resmi kanun terimlerine cevir (arama motoru icin)
-        system_prompt = "Sen bir arama motoru optimizatörüsün. Kullanıcının günlük dildeki hukuki sorusunu, vektör veritabanında aratılmak üzere (kanun ve yargıtay kararları bulmak için) tamamen resmi hukuki terimlere çevir. Asla cevap verme, sadece aranacak resmi anahtar kelimeleri veya kavramları (maksimum 15 kelime) yan yana yaz."
+        system_prompt = (
+            "Sen bir Türkçe arama motoru optimizatörüsün. "
+            "Kullanıcının sorusunu sadece Türkçe resmi hukuki terimlere çevir. "
+            "DİKKAT: İngilizce kelime kullanma. 'Here are the keywords' gibi açıklamalar YAPMA. "
+            "SADECE ve SADECE yan yana Türkçe hukuki aranacak kelimeleri yaz (maksimum 10 kelime). "
+            "Örnek çıktı: iş sözleşmesinin haksız feshi kıdem tazminatı"
+        )
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_query}
