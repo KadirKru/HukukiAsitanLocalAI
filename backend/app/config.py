@@ -37,8 +37,8 @@ class Settings(BaseSettings):
     api_port: int = 8000
 
     # RAG Parametreleri
-    top_k_results: int = 5
-    max_context_length: int = 4000
+    top_k_results: int = 12
+    max_context_length: int = 8000
     chunk_size: int = 512
     chunk_overlap: int = 50
 

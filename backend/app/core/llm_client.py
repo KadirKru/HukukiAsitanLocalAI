@@ -236,6 +236,17 @@ Lütfen kaynaklara dayanarak kapsamlı ve doğru bir yanıt ver."""
             return "medium"
         return "low"
 
+    def reformulate_query(self, user_query: str) -> str:
+        # kullanicinin normal dilini resmi kanun terimlerine cevir (arama motoru icin)
+        system_prompt = "Sen bir arama motoru optimizatörüsün. Kullanıcının günlük dildeki hukuki sorusunu, vektör veritabanında aratılmak üzere (kanun ve yargıtay kararları bulmak için) tamamen resmi hukuki terimlere çevir. Asla cevap verme, sadece aranacak resmi anahtar kelimeleri veya kavramları (maksimum 15 kelime) yan yana yaz."
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_query}
+        ]
+        reformulated = self._generate(messages, temperature=0.1, max_tokens=60)
+        logger.info(f"Orijinal sorgu: '{user_query}' -> Aranacak Hukuki Terimler: '{reformulated}'")
+        return reformulated
+
 
 # Singleton
 llm_client = LLMClient()

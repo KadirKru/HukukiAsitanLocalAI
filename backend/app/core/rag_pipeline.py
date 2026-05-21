@@ -20,9 +20,12 @@ class RAGPipeline:
         logger.info(f"RAG Pipeline başladı: '{request.question[:60]}...'")
 
         try:
+            # 1. Sorguyu resmi hukuki formata cevir (Sorgu Zenginlestirme / HyDE)
+            reformulated_query = self.llm.reformulate_query(request.question)
+
             search_flags = self._get_search_flags(request.query_type)
             sources = self.retriever.retrieve(
-                query=request.question,
+                query=reformulated_query,
                 top_k=request.top_k,
                 **search_flags
             )
