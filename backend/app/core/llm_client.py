@@ -98,7 +98,7 @@ class LLMClient:
         # baglami alip soruya cevap verir
         
         if query_type == "drafting":
-            temperature = 0.5  # Taslak üretimi için biraz daha yaratıcılık ve loop engelleme
+            temperature = 0.3  # Taslak üretimi için biraz daha yaratıcılık ve loop engelleme
             user_message = f"""Aşağıdaki hukuki kaynakları kullanarak istenen hukuki metnin taslağını oluştur:
 
 === HUKUK KAYNAKLARI ===
@@ -166,8 +166,14 @@ KURALLAR:
 1. Ürettiğin metin KESİNLİKLE yukarıdaki 4 yasal şablondan birinin yapısında olmalıdır.
 2. Çıktın DOĞRUDAN makam/noter/başlık ismi ile başlamalıdır. Hiçbir giriş veya selamlama KULLANMA.
 3. Metnin sonuna HİÇBİR kapanış cümlesi VEYA UYARI YAZMA. İmza alanından sonra metni BİTİR.
-4. SADECE TÜRKÇE kullan."""
-            system_prompt = "Sen uzman bir Türk avukatsın. Sadece doğrudan resmi dilekçe, ihtarname ve sözleşme metinleri yazarsın. Yazdığın metinler tam bir avukat elinden çıkmış gibi resmi, soğuk ve hukuki jargonla doludur. Asla bir yapay zeka asistanı gibi davranmaz, sohbet etmezsin."
+            system_prompt = (
+                "Sen uzman bir Türk avukatsın. SADECE VE SADECE TÜRKÇE DİLİNDE CEVAP VER. "
+                "İNGİLİZCE KELİME KULLANMAK KESİNLİKLE YASAKTIR. "
+                "Sadece doğrudan resmi dilekçe, ihtarname ve sözleşme metinleri yazarsın. "
+                "Yazdığın metinler tam bir avukat elinden çıkmış gibi resmi, soğuk ve hukuki jargonla doludur. "
+                "Asla bir yapay zeka asistanı gibi davranmaz, sohbet etmezsin. "
+                "KURAL: Metnin başından sonuna kadar TAMAMI %100 TÜRKÇE olmak zorundadır."
+            )
         else:
             user_message = f"""Aşağıdaki hukuki kaynakları kullanarak soruyu yanıtla:
 
@@ -239,11 +245,10 @@ Lütfen kaynaklara dayanarak kapsamlı ve doğru bir yanıt ver."""
     def reformulate_query(self, user_query: str) -> str:
         # kullanicinin normal dilini resmi kanun terimlerine cevir (arama motoru icin)
         system_prompt = (
-            "Sen bir Türkçe arama motoru optimizatörüsün. "
-            "Kullanıcının sorusunu sadece Türkçe resmi hukuki terimlere çevir. "
-            "DİKKAT: İngilizce kelime kullanma. 'Here are the keywords' gibi açıklamalar YAPMA. "
-            "SADECE ve SADECE yan yana Türkçe hukuki aranacak kelimeleri yaz (maksimum 10 kelime). "
-            "Örnek çıktı: iş sözleşmesinin haksız feshi kıdem tazminatı"
+            "Sen bir veritabanı arama motorusun. Kullanıcının cümlesini analiz et ve aratmak için SADECE EN ÖNEMLİ 5 TÜRKÇE hukuki terimi üret. "
+            "KURAL 1: İngilizce yazmak KESİNLİKLE YASAKTIR. Tüm çıktın Türkçe olmalıdır. "
+            "KURAL 2: 'Anahtar kelimeler', 'Keywords', 'Here are' gibi açıklamalar YASAKTIR. "
+            "Sadece kelimeleri aralarına boşluk koyarak Türkçe yaz. Noktalama işareti veya tırnak kullanma."
         )
         messages = [
             {"role": "system", "content": system_prompt},
