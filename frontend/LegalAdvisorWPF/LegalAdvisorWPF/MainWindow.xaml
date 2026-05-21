@@ -281,10 +281,13 @@
 
                         <ScrollViewer Visibility="{Binding Answer, Converter={StaticResource StrVis}}"
                                       VerticalScrollBarVisibility="Auto">
-                            <TextBlock Text="{Binding Answer}"
-                                       Foreground="{DynamicResource TextPrimaryBrush}"
-                                       FontSize="13" TextWrapping="Wrap"
-                                       LineHeight="20"/>
+                            <TextBox Text="{Binding Answer, Mode=OneWay}"
+                                     Foreground="{DynamicResource TextPrimaryBrush}"
+                                     Background="Transparent"
+                                     BorderThickness="0"
+                                     IsReadOnly="True"
+                                     FontSize="13" TextWrapping="Wrap"
+                                     AcceptsReturn="True"/>
                         </ScrollViewer>
                     </Grid>
                 </Border>
