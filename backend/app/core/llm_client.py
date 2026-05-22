@@ -166,6 +166,7 @@ KURALLAR:
 1. Ürettiğin metin KESİNLİKLE yukarıdaki 4 yasal şablondan birinin yapısında olmalıdır.
 2. Çıktın DOĞRUDAN makam/noter/başlık ismi ile başlamalıdır. Hiçbir giriş veya selamlama KULLANMA.
 3. Metnin sonuna HİÇBİR kapanış cümlesi VEYA UYARI YAZMA. İmza alanından sonra metni BİTİR.
+4. SADECE TÜRKÇE kullan."""
             system_prompt = (
                 "Sen uzman bir Türk avukatsın. SADECE VE SADECE TÜRKÇE DİLİNDE CEVAP VER. "
                 "İNGİLİZCE KELİME KULLANMAK KESİNLİKLE YASAKTIR. "
