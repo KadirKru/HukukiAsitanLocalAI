@@ -6,7 +6,8 @@ from loguru import logger
 from app.config import settings
 
 
-SYSTEM_PROMPT = """Sen uzman bir Türk hukuk danışmanısın. Kullanıcıların hukuki sorularını yanıtlarken:
+SYSTEM_PROMPT = """Sen uzman bir Türk hukuk danışmanısın. SADECE VE SADECE TÜRKÇE CEVAP VER. İNGİLİZCE KULLANMAK KESİNLİKLE YASAKTIR. 
+Kullanıcıların hukuki sorularını ve belgelerini analiz ederken:
 
 1. Sağlanan kanun maddelerine ve Yargıtay kararlarına dayanarak cevap ver.
 2. Her iddiayı kaynaklarla destekle: "TCK Madde X'e göre...", "Yargıtay X. Dairesi kararına göre..."
@@ -222,10 +223,10 @@ Lütfen kaynaklara dayanarak kapsamlı ve doğru bir yanıt ver."""
     def analyze_pdf_content(self, pdf_text: str, analysis_type: str = "general") -> str:
         # pdf textini ai ile ozetliyoruz
         type_prompts = {
-            "general":   "Bu hukuki belgeyi analiz et ve önemli noktaları özetle.",
-            "contract":  "Bu sözleşmeyi analiz et: taraflar, yükümlülükler, riskler ve önemli maddeler.",
-            "decision":  "Bu mahkeme kararını analiz et: karar özeti, gerekçe ve emsal değeri.",
-            "petition":  "Bu dilekçeyi analiz et: talep, dayanak ve eksiklikler."
+            "general":   "Bu hukuki belgeyi TAMAMEN TÜRKÇE DİLİNDE analiz et ve önemli noktaları özetle. İngilizce yazmak YASAKTIR.",
+            "contract":  "Bu sözleşmeyi TAMAMEN TÜRKÇE DİLİNDE analiz et: taraflar, yükümlülükler, riskler ve önemli maddeler. İngilizce yazmak YASAKTIR.",
+            "decision":  "Bu mahkeme kararını TAMAMEN TÜRKÇE DİLİNDE analiz et: karar özeti, gerekçe ve emsal değeri. İngilizce yazmak YASAKTIR.",
+            "petition":  "Bu dilekçeyi TAMAMEN TÜRKÇE DİLİNDE analiz et: talep, dayanak ve eksiklikler. İngilizce yazmak YASAKTIR."
         }
         prompt = type_prompts.get(analysis_type, type_prompts["general"])
         truncated = pdf_text[:6000] if len(pdf_text) > 6000 else pdf_text
